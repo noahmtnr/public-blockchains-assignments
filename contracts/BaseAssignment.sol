@@ -104,11 +104,9 @@ contract BaseAssignment {
         return signatures[index].signature;
     }
 
-    function getSignatureEthAmount(uint256 index)
-        public
-        view
-        returns (uint256)
-    {
+    function getSignatureEthAmount(
+        uint256 index
+    ) public view returns (uint256) {
         require(
             IBaseValidator(_validator).isValidator(msg.sender) ||
                 msg.sender == _owner,
