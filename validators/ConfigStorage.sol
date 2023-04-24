@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-import "../contracts/BaseConfigAdmin.sol";
+import "./BaseConfigAdmin.sol";
 
 abstract contract IBaseValidator {
     function clearAssignmentInfos() external {}

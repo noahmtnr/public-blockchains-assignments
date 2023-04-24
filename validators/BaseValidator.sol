@@ -5,10 +5,10 @@ pragma solidity ^0.8.17;
 =                Assignment Helper            =
 =============================================*/
 
-import "../contracts/BaseConfig.sol";
-import "../contracts/IBaseAssignment.sol";
-import "../contracts/SBCoin.sol";
-import "../contracts/Helper.sol";
+import "./BaseConfig.sol";
+import "./IBaseAssignment.sol";
+import "./SBCoin.sol";
+import "./Helper.sol";
 
 contract BaseValidator is BaseConfig, Helper {
     // TEST STRUCT
