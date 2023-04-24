@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
+// Remember to remove .template from the file name to use.
+
 // Open Zeppelin:
 
 // Open Zeppelin NFT guide:
